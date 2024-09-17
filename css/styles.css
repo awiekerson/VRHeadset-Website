@@ -1,0 +1,72 @@
+
+:root {
+    --gray: #3E3E3E;
+    --blue: #33C6DD;
+}
+
+
+body {
+    margin: 0px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.container {
+    max-width: 90%;
+    width: 1440px;
+    margin: auto;
+}
+
+
+
+header {
+    height: 70px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(0,0,0,0.1);
+}
+
+
+header section.logo {
+    font-size: 27px;
+    color: black;
+}
+
+header section.logo span.blue-dot{
+    background-color: var(--blue);
+    width: 10px;
+    height: 10px;
+    /* Need to set display in order to see */
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--gray);
+
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 26px;
+}
+
+header nav li:last-of-type {
+    margin-right: 0px;
+}
+
+/* Flex box example -- the header .container needs to have the right amount of children to work */
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    /* Align-items may not do anything at first -- need to adjust height of container to 100% */
+    height: 100%;
+}
