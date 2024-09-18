@@ -17,7 +17,6 @@ body {
 }
 
 
-
 header {
     height: 70px;
     background-color: #FFFFFF;
@@ -70,3 +69,84 @@ header .container {
     /* Align-items may not do anything at first -- need to adjust height of container to 100% */
     height: 100%;
 }
+
+section.hero img {
+  width: 100%;
+  height: auto;
+}
+
+section.hero {
+    position: relative;
+}
+
+section.hero .hero-content {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+}
+
+.hero-content .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+section.hero h1, section.hero p{
+    color: white;
+    margin-top: 0;
+    margin-bottom: 20px;
+    max-width: 495px;
+}
+
+section.hero h1 {
+    font-size: 50px;
+    line-height: 56px;
+    font-weight: 400;
+    
+}
+
+section.hero p {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+section.hero button {
+    width: 200px;
+    height: 50px;
+    background-color: var(--blue);
+    border-radius: 25px;
+    color: white;
+    border: 1px solid var(--blue);
+    cursor:pointer;
+    font-weight: 400px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+section.best-sellers {
+    padding-top: 90px;
+    padding-bottom: 80px;
+}
+
+section.best-sellers h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: 400;
+}
+
+section.best-sellers hr {
+    margin: 0;
+    width: 66px;
+    margin: auto;
+    border: none;
+    background-color: var(--blue);
+    height: 6px;
+}
+
