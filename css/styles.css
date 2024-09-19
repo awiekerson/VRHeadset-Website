@@ -432,7 +432,6 @@ section.copyright {
 
     section.hero h1, section.hero p{
         margin-bottom: 12px;
-        max-width: 495px;
     }
     
     section.hero h1 {
@@ -651,5 +650,116 @@ section.copyright {
         max-width: 92%;
         width: 92%;
     }
+
+    header section.logo {
+        font-size: 18px;
+    }
+
+    header nav li {
+        display: none;
+    }
+
+    header nav li.menu-icon {
+        display: inline-block;
+    }
+
+    section.hero .hero-content {
+        position: initial;
+        text-align: center;
+        margin-top: 26px;
+    }
+
+    section.hero .container {
+        align-items: center;
+    }
+
+    section.hero h1 {
+        color: black;
+        margin-bottom: 32px;
+    }
+    
+    section.hero p {
+        display: none;
+    }
+    
+
+    section.best-sellers .product-slider .product h5 {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    section.best-sellers .product-slider .product h4 {
+        font-size: 14px;
+        margin-bottom: 8px;
+    }
+
+
+    section.best-sellers .product-slider .product .price h3 {
+        font-size: 20px;
+    }
+
+    section.best-sellers .product-slider .product .price span.original-price {
+        font-size: 11px;
+     }
+     
+    
+     section.best-sellers .product-slider .product button {
+         width: 190px;
+         height: 36px;
+         font-size: 12px;
+         line-height: 18px;
+         max-width: 100%;
+     }
+
+    section.best-sellers .product-slider .container {
+        flex-wrap: wrap;
+        
+    }
+    
+     section.best-sellers .product-slider .product {
+        width: 100%;
+        margin-bottom: 34px;
+    }
+
+    section.best-sellers .product-slider .product:last-of-type {
+        margin-bottom: 0;
+    }
+
+     section.newsletter {
+        margin: 64px auto;
+        padding: 44px 0;
+    } 
+
+      
+    section.newsletter input[type=email] {
+        width: 210px;
+    } 
+    
+    
+    section.newsletter button[type=submit] {
+        padding: 0 20px;
+    } 
+    
+    
+    footer {
+        padding: 48px 0px;
+    }
+    
+    footer .container {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+    
+      footer .container ul {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 32px;
+      }
+
+      footer .container ul:last-of-type {
+        margin-bottom: 0;
+      }
+
+
 }
 
