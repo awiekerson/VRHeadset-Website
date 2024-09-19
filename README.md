@@ -1,1 +1,1 @@
-This is a VR Headset website design, it is responsive for Desktop, tablet, and mobile devices! No Javascript...yet!
+This is a VR Headset website design, it is responsive for desktop, tablet, and mobile devices! No Javascript...yet!
