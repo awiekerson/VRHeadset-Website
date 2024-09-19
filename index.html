@@ -21,18 +21,26 @@
                 </section>
                 <nav>
                     <ul>
-                        <li><a href="">About us</a></li>
-                        <li><a href="">Promotions</a></li>
-                        <li><a href="">Newsletter</a></li>
+                        <li><a href="#hero-section">About us</a></li>
+                        <li><a href="#best-sellers-section">Promotions</a></li>
+                        <li><a href="#newsletter-section">Newsletter</a></li>
+                        <li class="menu-icon">
+                            <img src="/images/menu_icon.png" alt="menu icon">
+                        </li>
                     </ul>
                 </nav>
 
             </div>
         </header>
 
-        <section class="hero">
-            <img src="images/Hero_Large_Desktop.jpg" alt="hero image - VR headset">
-
+        <section class="hero" id="hero-section">
+            <picture>
+                <source media="(max-width: 576px)" srcset="images/Hero_Mobile.jpg">
+                <source media="(max-width: 960px)" srcset="images/Hero_Tablet.jpg">
+                <source media="(max-width: 1440px)" srcset="images/Hero_image.jpg">
+                <img src="images/Hero_Large_Desktop.jpg" alt="hero image - VR headset">
+            </picture>
+            
             <div class="hero-content">
                 <div class="container">
 
@@ -45,7 +53,7 @@
             </div>
         </section>
 
-        <section class="best-sellers">
+        <section class="best-sellers" id="best-sellers-section">
             <h2>Best Sellers</h2>
             <hr>
 
@@ -118,10 +126,51 @@
 
         </section>
        
-        <section class="newsletter">
+        <section class="newsletter" id="newsletter-section">
             <h3>Newsletter Signup</h3>
             <p>Subscribe now and don't miss a single deal! </p>
             <input type="email" placeholder="Your email..."><button type="submit">Subscribe</button>
+        </section>
+
+        <footer>
+            <div class="container">
+                <ul>
+                    <li class="list-title">Categories</li>
+                    <li><a href="#">Watches</a></li>
+                    <li><a href="#">Camera</a></li>
+                    <li><a href="#">Phones</a></li>
+                    <li><a href="#">Tablets</a></li>
+                    <li><a href="#">Computers</a></li>
+                </ul>
+                <ul>
+                    <li class="list-title">About us</li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Awards</a></li>
+                    <li><a href="#">Stores</a></li>
+                </ul>
+                <ul>
+                    <li class="list-title">Social Media</li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Youtube</a></li>
+                    <li><a href="#">Tik Tok</a></li>
+                </ul>
+                <ul>
+                    <li class="list-title">Customer Service</li>
+                    <li><a href="#">Live Chat</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Terms &amp; Conditions</a></li>
+                    <li><a href="#">Delivery amp; Returns</a></li>
+                    <li><a href="#">Finance</a></li>
+                </ul>
+            </div>
+        </footer>
+
+        <section class="copyright">
+            &reg; All Rights Reserved
         </section>
     </body>
 
