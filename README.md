@@ -4,7 +4,7 @@ I developed a VR headset website from scratch using HTML and CSS, based on a des
 
 The website features fundamental HTML and CSS concepts, structured with a header, hero, body, and footer. I utilized Flexbox extensively to achieve a clean and modern layout.
 
-Currently, the site is static and does not incorporate JavaScript, but I plan to enhance its functionality in future projects.
+Currently, the site is static and does not incorporate Javascript, but I plan to enhance its functionality in future projects.
 
 Check out the finalized website here: <a target="_blank" href="https://awiekerson.github.io/VRHeadset-Website/">VR Headset Website</a>
 
